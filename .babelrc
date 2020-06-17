@@ -1,0 +1,43 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+		"@babel/plugin-proposal-optional-chaining",
+		"@babel/plugin-proposal-class-properties",
+		"react-hot-loader/babel",
+		[
+			"@babel/plugin-transform-runtime",
+			{
+				"regenerator": true
+			}
+		],
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./"
+                ],
+                "alias": {
+                    "src": "./src",
+                    "components": "./src/components"
+                }
+            }
+		],
+		[
+			"import",
+			{
+				"libraryName": "antd",
+				"libraryDirectory": "es",
+				"style": true
+			}
+		]
+    ]
+}
