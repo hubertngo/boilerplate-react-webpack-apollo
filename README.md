@@ -1,5 +1,5 @@
 # Boilerplate webpack antd less
-A boilerplate for Reactjs app using webpack, antd, less.
+A boilerplate for Reactjs app using webpack, antd, less and Apollo Client.
 
 ## Features
 This boilerplate is updated with:
@@ -7,6 +7,7 @@ This boilerplate is updated with:
 - [React 16.13+](https://reactjs.org)
 - [Antd 4x](https://ant.design/)
 - Less - css module
+- Apollo Client
 - Eslint
 
 ## Installing and Running
