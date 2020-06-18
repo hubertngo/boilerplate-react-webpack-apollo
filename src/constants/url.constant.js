@@ -6,6 +6,6 @@
 * Created: 2019-02-14 16:27:58
 *------------------------------------------------------- */
 export default {
-	API_URL: process.env.API_URL || 'http://localhost:3005/api/v1',
 	WEB_URL: process.env.WEB_URL || 'http://localhost:3334',
+	GRAPHQL_URL: process.env.GRAPHQL_URL || 'https://graphql.anilist.co',
 };
